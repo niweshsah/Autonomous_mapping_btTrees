@@ -1,34 +1,52 @@
 # Autonomous Mapping using Frontier Exploration with Behavior Trees
 
-This project implements an autonomous mapping system using **Frontier Exploration** along with **Behavior Trees** in ROS 2. The system utilizes **SLAM Toolbox**, **TurtleBot3 Simulation**, and **py\_trees** for efficient decision-making and mapping.
+## Overview
+
+This project implements an advanced autonomous mapping system for robotic exploration using cutting-edge technologies in ROS 2. By combining Frontier Exploration techniques with Behavior Trees, the system enables intelligent and efficient environment mapping with a TurtleBot3 robot.
 
 ## Features
 
-- **Frontier-Based Exploration**: The robot autonomously explores unknown environments.
-- **Behavior Trees**: Modular decision-making for exploration and navigation.
-- **SLAM Toolbox**: Real-time SLAM for mapping the environment.
-- **TurtleBot3 Simulation**: Virtual robot for testing the mapping pipeline.
+- **Frontier-Based Exploration**: Autonomous exploration of unknown environments using intelligent frontier detection
+- **Behavior Trees**: Modular and flexible decision-making framework for navigation and exploration
+- **Real-Time SLAM**: Accurate simultaneous localization and mapping using SLAM Toolbox
+- **TurtleBot3 Simulation**: Comprehensive virtual testing environment for robotic navigation
+
+## System Architecture
+
+The autonomous mapping system integrates several key components:
+- ROS 2 Humble
+- py_trees for Behavior Tree implementation
+- SLAM Toolbox for mapping
+- Nav2 for navigation
+- TurtleBot3 robot simulation
 
 ## Prerequisites
 
-Before running the system, ensure the following are installed:
+Ensure the following software is installed:
 
-- **Ubuntu 22.04**
-- **ROS 2 Humble**
-- **TurtleBot3 packages**
-- **Gazebo Simulation environment**
-- **SLAM Toolbox**
+- Ubuntu 22.04 LTS
+- ROS 2 Humble
+- TurtleBot3 packages
+- Gazebo Simulation
+- SLAM Toolbox
+- Nav2
 
 ## Installation
 
-### 1. Clone the Repository
+### 1. Setup ROS 2 Workspace
 
 ```bash
+mkdir -p ~/ros_ws/src
 cd ~/ros_ws/src
+```
+
+### 2. Clone the Repository
+
+```bash
 git clone https://github.com/niweshsah/Autonomous_mapping_btTrees.git
 ```
 
-### 2. Build the Workspace
+### 3. Build the Workspace
 
 ```bash
 cd ~/ros_ws
@@ -36,43 +54,52 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
-## Running the Autonomous Mapping
+## Running the Autonomous Mapping System
 
-After building the workspace, execute the following commands in separate terminals:
+Open multiple terminals and execute the following commands:
 
-### 1. Run the Behavior Tree for Frontier Exploration
-
+### Terminal 1: Behavior Tree Frontier Exploration
 ```bash
 ros2 run my_behavior_tree frontier_btTree
 ```
 
-### 2. Start the SLAM Toolbox
-
+### Terminal 2: SLAM Toolbox
 ```bash
 ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
 ```
 
-### 3. Launch the TurtleBot3 Gazebo Simulation
-
+### Terminal 3: TurtleBot3 Gazebo Simulation
 ```bash
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 
-### 4. Start Navigation with Nav2
-
+### Terminal 4: Navigation with Nav2
 ```bash
-ros2 launch turtlebot3_navigation2 navigation2.launch.py params_file:=/home/niweshsah/py_trees1_ws/config/nav2_params.yaml use_sim_time:=True
+ros2 launch turtlebot3_navigation2 navigation2.launch.py \
+    params_file:=/home/niweshsah/ros_ws/config/nav2_params.yaml \
+    use_sim_time:=True
 ```
 
-## Notes
+## Important Notes
 
-- Ensure **ROS 2 Humble** is properly installed and sourced before running the commands.
-- The workspace should be properly built and sourced after cloning.
-- The behavior tree node controls the frontier-based exploration autonomously.
-- The default world used is the **TurtleBot3 World**, but users can choose any custom world for mapping.
-- **Prerequisites**: Ensure that **TurtleBot3 packages** and **Ubuntu 22.04** are installed before running the system.
-- The code includes an **unstuck mechanism**, but if the robot gets stuck for a long time, simply pressing **Reset** for **Nav2** in **RViz** usually resolves the issue.
-- Ensure **ROS 2 Humble** is properly installed and sourced before running the commands.
-- The workspace should be properly built and sourced after cloning.
-- The behavior tree node controls the frontier-based exploration autonomously.
+- Verify ROS 2 Humble is properly installed and sourced
+- Ensure the workspace is built and sourced after cloning
+- The behavior tree node autonomously controls frontier-based exploration
+- Default world is TurtleBot3 World, but custom worlds can be used
+- Includes an unstuck mechanism for handling navigation challenges
 
+## Troubleshooting
+
+If the robot becomes persistently stuck:
+- Use the **Reset** button in RViz for Nav2
+- Check navigation parameters in the configuration file
+- Verify sensor data and mapping accuracy
+
+## Demo
+
+A video demonstration of the autonomous mapping system is available. Please refer to the project repository for the latest demo.
+
+
+## Contact
+
+email : sahniwesh@gmail.com
