@@ -24,7 +24,7 @@ Before running the system, ensure the following are installed:
 ### 1. Clone the Repository
 
 ```bash
-cd ~/py_trees1_ws/src
+cd ~/ros_ws/src
 git clone https://github.com/niweshsah/Autonomous_mapping_btTrees.git
 ```
 
