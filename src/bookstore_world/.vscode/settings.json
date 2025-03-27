@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/py_trees1_ws/build/my_behavior_tree",
+        "/home/niweshsah/py_trees1_ws/install/my_behavior_tree/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        ""
+    ],
+    "python.analysis.extraPaths": [
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/py_trees1_ws/build/my_behavior_tree",
+        "/home/niweshsah/py_trees1_ws/install/my_behavior_tree/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        "/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages",
+        ""
+    ]
+}

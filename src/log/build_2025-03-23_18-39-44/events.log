@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (bookstore_world) JobQueued: {'identifier': 'bookstore_world', 'dependencies': OrderedDict()}
+[0.000530] (my_behavior_tree) JobQueued: {'identifier': 'my_behavior_tree', 'dependencies': OrderedDict()}
+[0.000609] (bookstore_world) JobStarted: {'identifier': 'bookstore_world'}
+[0.023872] (my_behavior_tree) JobStarted: {'identifier': 'my_behavior_tree'}
+[0.096436] (-) TimerEvent: {}
+[0.199538] (-) TimerEvent: {}
+[0.301234] (-) TimerEvent: {}
+[0.402380] (-) TimerEvent: {}
+[0.502825] (-) TimerEvent: {}
+[0.604106] (-) TimerEvent: {}
+[0.704732] (-) TimerEvent: {}
+[0.805939] (-) TimerEvent: {}
+[0.906926] (-) TimerEvent: {}
+[1.007407] (-) TimerEvent: {}
+[1.107866] (-) TimerEvent: {}
+[1.209440] (-) TimerEvent: {}
+[1.309860] (-) TimerEvent: {}
+[1.410320] (-) TimerEvent: {}
+[1.510738] (-) TimerEvent: {}
+[1.611177] (-) TimerEvent: {}
+[1.711616] (-) TimerEvent: {}
+[1.812201] (-) TimerEvent: {}
+[1.912583] (-) TimerEvent: {}
+[2.013328] (-) TimerEvent: {}
+[2.114379] (-) TimerEvent: {}
+[2.215370] (-) TimerEvent: {}
+[2.315847] (-) TimerEvent: {}
+[2.416264] (-) TimerEvent: {}
+[2.517479] (-) TimerEvent: {}
+[2.617917] (-) TimerEvent: {}
+[2.718366] (-) TimerEvent: {}
+[2.818897] (-) TimerEvent: {}
+[2.921980] (-) TimerEvent: {}
+[3.022839] (-) TimerEvent: {}
+[3.123385] (-) TimerEvent: {}
+[3.224685] (-) TimerEvent: {}
+[3.328691] (-) TimerEvent: {}
+[3.429321] (-) TimerEvent: {}
+[3.533358] (-) TimerEvent: {}
+[3.633889] (-) TimerEvent: {}
+[3.734468] (-) TimerEvent: {}
+[3.834948] (-) TimerEvent: {}
+[3.935385] (-) TimerEvent: {}
+[4.036025] (-) TimerEvent: {}
+[4.136626] (-) TimerEvent: {}
+[4.237084] (-) TimerEvent: {}
+[4.339168] (-) TimerEvent: {}
+[4.439966] (-) TimerEvent: {}
+[4.540913] (-) TimerEvent: {}
+[4.642051] (-) TimerEvent: {}
+[4.742503] (-) TimerEvent: {}
+[4.812213] (my_behavior_tree) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/niweshsah/py_trees1_ws/src/build/my_behavior_tree/build', '--no-deps', 'symlink_data'], 'cwd': '/home/niweshsah/py_trees1_ws/src/build/my_behavior_tree', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/niweshsah/py_trees1_ws/src/bookstore_world/models:/home/niweshsah/py_trees1_ws/src/bookstore_world/models', 'LANGUAGE': 'en_IN:en', 'USER': 'niweshsah', 'XDG_SESSION_TYPE': 'x11', '__EGL_VENDOR_LIBRARY_FILENAMES': '/usr/share/glvnd/egl_vendor.d/10_nvidia.json', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/niweshsah', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/niweshsah/py_trees1_ws', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/niweshsah/.nvm/versions/node/v18.20.7/bin', 'NVM_INC': '/home/niweshsah/.nvm/versions/node/v18.20.7/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '66773', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'NVM_DIR': '/home/niweshsah/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/niweshsah/py_trees1_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'niweshsah', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CONAN_REVISIONS_ENABLED': '1', 'USERNAME': 'niweshsah', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/niweshsah/py_trees1_ws/src/bookstore_world/models:/opt/ros/humble/share/turtlebot3_gazebo/models/:/usr/share/gazebo-11/models', 'LIBGL_ALWAYS_INDIRECT': '1', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/niweshsah/mrtrix3/bin:/home/niweshsah/.npm-global/bin:/opt/dart-sdk-3.7.0-274.0.dev/bin:/home/niweshsah/.local/bin:/home/niweshsah/.npm-global/bin:/opt/ros/humble/bin:/opt/dart-sdk-3.7.0-274.0.dev/bin:/home/niweshsah/.nvm/versions/node/v18.20.7/bin:/home/niweshsah/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/niweshsah/Android/Sdk/platform-tools/:/home/niweshsah/Android/Sdk/platform-tools/', 'SESSION_MANAGER': 'local/niweshHP-Ubuntu:@/tmp/.ICE-unix/2600,unix/niweshHP-Ubuntu:/tmp/.ICE-unix/2600', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eafd4f7b_289d_4c00_b1b0_07ee44cfab12', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.342', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/niweshsah/py_trees1_ws/install/my_behavior_tree:/home/niweshsah/py_trees1_ws/install/bookstore_world:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/niweshsah/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_MODEL_DATABASE_URI': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/niweshsah/py_trees1_ws/src/build/my_behavior_tree', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/niweshsah/anaconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/niweshsah/py_trees1_ws/src/build/my_behavior_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/lib/python3.10/site-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:/home/niweshsah/py_trees1_ws/build/my_behavior_tree:/home/niweshsah/py_trees1_ws/install/my_behavior_tree/lib/python3.10/site-packages:/home/niweshsah/py_trees1_ws/build/bookstore_world:/home/niweshsah/py_trees1_ws/install/bookstore_world/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:', 'COLCON': '1', 'VTE_VERSION': '6800', 'LIBGL_DRIVERS_PATH': '/usr/lib/nvidia'}, 'shell': False}
+[4.830744] (bookstore_world) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/niweshsah/py_trees1_ws/src/build/bookstore_world/build', '--no-deps', 'symlink_data'], 'cwd': '/home/niweshsah/py_trees1_ws/src/build/bookstore_world', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/niweshsah/py_trees1_ws/src/bookstore_world/models:/home/niweshsah/py_trees1_ws/src/bookstore_world/models', 'LANGUAGE': 'en_IN:en', 'USER': 'niweshsah', 'XDG_SESSION_TYPE': 'x11', '__EGL_VENDOR_LIBRARY_FILENAMES': '/usr/share/glvnd/egl_vendor.d/10_nvidia.json', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/niweshsah', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/niweshsah/py_trees1_ws', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/niweshsah/.nvm/versions/node/v18.20.7/bin', 'NVM_INC': '/home/niweshsah/.nvm/versions/node/v18.20.7/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '66773', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'NVM_DIR': '/home/niweshsah/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/niweshsah/py_trees1_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'niweshsah', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CONAN_REVISIONS_ENABLED': '1', 'USERNAME': 'niweshsah', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/niweshsah/py_trees1_ws/src/bookstore_world/models:/opt/ros/humble/share/turtlebot3_gazebo/models/:/usr/share/gazebo-11/models', 'LIBGL_ALWAYS_INDIRECT': '1', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/niweshsah/mrtrix3/bin:/home/niweshsah/.npm-global/bin:/opt/dart-sdk-3.7.0-274.0.dev/bin:/home/niweshsah/.local/bin:/home/niweshsah/.npm-global/bin:/opt/ros/humble/bin:/opt/dart-sdk-3.7.0-274.0.dev/bin:/home/niweshsah/.nvm/versions/node/v18.20.7/bin:/home/niweshsah/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/niweshsah/Android/Sdk/platform-tools/:/home/niweshsah/Android/Sdk/platform-tools/', 'SESSION_MANAGER': 'local/niweshHP-Ubuntu:@/tmp/.ICE-unix/2600,unix/niweshHP-Ubuntu:/tmp/.ICE-unix/2600', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eafd4f7b_289d_4c00_b1b0_07ee44cfab12', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.342', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/niweshsah/py_trees1_ws/install/my_behavior_tree:/home/niweshsah/py_trees1_ws/install/bookstore_world:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/niweshsah/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_MODEL_DATABASE_URI': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/niweshsah/py_trees1_ws/src/build/bookstore_world', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/niweshsah/anaconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/niweshsah/py_trees1_ws/src/build/bookstore_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niweshsah/py_trees1_ws/src/install/bookstore_world/lib/python3.10/site-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:/home/niweshsah/py_trees1_ws/build/my_behavior_tree:/home/niweshsah/py_trees1_ws/install/my_behavior_tree/lib/python3.10/site-packages:/home/niweshsah/py_trees1_ws/build/bookstore_world:/home/niweshsah/py_trees1_ws/install/bookstore_world/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:/home/niweshsah/robo_arm_new_ws/devel/lib/python3/dist-packages:', 'COLCON': '1', 'VTE_VERSION': '6800', 'LIBGL_DRIVERS_PATH': '/usr/lib/nvidia'}, 'shell': False}
+[4.842594] (-) TimerEvent: {}
+[4.942993] (-) TimerEvent: {}
+[5.043409] (-) TimerEvent: {}
+[5.143848] (-) TimerEvent: {}
+[5.245359] (-) TimerEvent: {}
+[5.345781] (-) TimerEvent: {}
+[5.446466] (-) TimerEvent: {}
+[5.547715] (-) TimerEvent: {}
+[5.648147] (-) TimerEvent: {}
+[5.748556] (-) TimerEvent: {}
+[5.849526] (-) TimerEvent: {}
+[5.914776] (my_behavior_tree) StdoutLine: {'line': b'running develop\n'}
+[5.949637] (-) TimerEvent: {}
+[6.016291] (bookstore_world) StdoutLine: {'line': b'running develop\n'}
+[6.050965] (-) TimerEvent: {}
+[6.151418] (-) TimerEvent: {}
+[6.252623] (-) TimerEvent: {}
+[6.353081] (-) TimerEvent: {}
+[6.453519] (-) TimerEvent: {}
+[6.515408] (my_behavior_tree) StdoutLine: {'line': b'running egg_info\n'}
+[6.515758] (my_behavior_tree) StdoutLine: {'line': b'creating my_behavior_tree.egg-info\n'}
+[6.516029] (my_behavior_tree) StdoutLine: {'line': b'writing my_behavior_tree.egg-info/PKG-INFO\n'}
+[6.516647] (my_behavior_tree) StdoutLine: {'line': b'writing dependency_links to my_behavior_tree.egg-info/dependency_links.txt\n'}
+[6.517103] (my_behavior_tree) StdoutLine: {'line': b'writing entry points to my_behavior_tree.egg-info/entry_points.txt\n'}
+[6.517321] (my_behavior_tree) StdoutLine: {'line': b'writing requirements to my_behavior_tree.egg-info/requires.txt\n'}
+[6.517507] (my_behavior_tree) StdoutLine: {'line': b'writing top-level names to my_behavior_tree.egg-info/top_level.txt\n'}
+[6.517757] (my_behavior_tree) StdoutLine: {'line': b"writing manifest file 'my_behavior_tree.egg-info/SOURCES.txt'\n"}
+[6.524627] (my_behavior_tree) StdoutLine: {'line': b"reading manifest file 'my_behavior_tree.egg-info/SOURCES.txt'\n"}
+[6.526406] (my_behavior_tree) StdoutLine: {'line': b"writing manifest file 'my_behavior_tree.egg-info/SOURCES.txt'\n"}
+[6.534002] (my_behavior_tree) StdoutLine: {'line': b'running build_ext\n'}
+[6.534381] (my_behavior_tree) StdoutLine: {'line': b'Creating /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/lib/python3.10/site-packages/my-behavior-tree.egg-link (link to .)\n'}
+[6.536144] (my_behavior_tree) StdoutLine: {'line': b'Installing simple_tree script to /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/lib/my_behavior_tree\n'}
+[6.536496] (my_behavior_tree) StdoutLine: {'line': b'Installing turtlebot_btree script to /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/lib/my_behavior_tree\n'}
+[6.536832] (my_behavior_tree) StdoutLine: {'line': b'\n'}
+[6.537121] (my_behavior_tree) StdoutLine: {'line': b'Installed /home/niweshsah/py_trees1_ws/src/build/my_behavior_tree\n'}
+[6.537782] (my_behavior_tree) StdoutLine: {'line': b'running symlink_data\n'}
+[6.537998] (my_behavior_tree) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/share/ament_index\n'}
+[6.538202] (my_behavior_tree) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/share/ament_index/resource_index\n'}
+[6.538412] (my_behavior_tree) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/share/ament_index/resource_index/packages\n'}
+[6.538600] (my_behavior_tree) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/my_behavior_tree/resource/my_behavior_tree -> /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/share/ament_index/resource_index/packages\n'}
+[6.538786] (my_behavior_tree) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/my_behavior_tree/package.xml -> /home/niweshsah/py_trees1_ws/src/install/my_behavior_tree/share/my_behavior_tree\n'}
+[6.553641] (-) TimerEvent: {}
+[6.637926] (my_behavior_tree) CommandEnded: {'returncode': 0}
+[6.654215] (-) TimerEvent: {}
+[6.685911] (my_behavior_tree) JobEnded: {'identifier': 'my_behavior_tree', 'rc': 0}
+[6.699979] (bookstore_world) StdoutLine: {'line': b'running egg_info\n'}
+[6.700292] (bookstore_world) StdoutLine: {'line': b'creating bookstore_world.egg-info\n'}
+[6.700548] (bookstore_world) StdoutLine: {'line': b'writing bookstore_world.egg-info/PKG-INFO\n'}
+[6.701070] (bookstore_world) StdoutLine: {'line': b'writing dependency_links to bookstore_world.egg-info/dependency_links.txt\n'}
+[6.701364] (bookstore_world) StdoutLine: {'line': b'writing entry points to bookstore_world.egg-info/entry_points.txt\n'}
+[6.701630] (bookstore_world) StdoutLine: {'line': b'writing requirements to bookstore_world.egg-info/requires.txt\n'}
+[6.701935] (bookstore_world) StdoutLine: {'line': b'writing top-level names to bookstore_world.egg-info/top_level.txt\n'}
+[6.702383] (bookstore_world) StdoutLine: {'line': b"writing manifest file 'bookstore_world.egg-info/SOURCES.txt'\n"}
+[6.709427] (bookstore_world) StdoutLine: {'line': b"reading manifest file 'bookstore_world.egg-info/SOURCES.txt'\n"}
+[6.712053] (bookstore_world) StdoutLine: {'line': b"writing manifest file 'bookstore_world.egg-info/SOURCES.txt'\n"}
+[6.721385] (bookstore_world) StdoutLine: {'line': b'running build_ext\n'}
+[6.724744] (bookstore_world) StdoutLine: {'line': b'Creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/lib/python3.10/site-packages/bookstore-world.egg-link (link to .)\n'}
+[6.726778] (bookstore_world) StdoutLine: {'line': b'\n'}
+[6.727196] (bookstore_world) StdoutLine: {'line': b'Installed /home/niweshsah/py_trees1_ws/src/build/bookstore_world\n'}
+[6.727670] (bookstore_world) StdoutLine: {'line': b'running symlink_data\n'}
+[6.728503] (bookstore_world) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index\n'}
+[6.728753] (bookstore_world) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index\n'}
+[6.729124] (bookstore_world) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index/packages\n'}
+[6.729319] (bookstore_world) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/resource/bookstore_world -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index/packages\n'}
+[6.729503] (bookstore_world) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/package.xml -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world\n'}
+[6.729676] (bookstore_world) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch\n'}
+[6.729872] (bookstore_world) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/book_store_launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch\n'}
+[6.730063] (bookstore_world) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/bookstore_turtlebot.launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch\n'}
+[6.730246] (bookstore_world) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/bookstore_classic_turtlebot3.launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch\n'}
+[6.730419] (bookstore_world) StdoutLine: {'line': b'creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/worlds\n'}
+[6.730579] (bookstore_world) StdoutLine: {'line': b'symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/worlds/bookstore.world -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/worlds\n'}
+[6.754346] (-) TimerEvent: {}
+[6.803381] (bookstore_world) CommandEnded: {'returncode': 0}
+[6.826161] (bookstore_world) JobEnded: {'identifier': 'bookstore_world', 'rc': 0}
+[6.831449] (-) EventReactorShutdown: {}

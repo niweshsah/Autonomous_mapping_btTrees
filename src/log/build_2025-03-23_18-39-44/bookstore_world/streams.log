@@ -1,0 +1,29 @@
+[4.831s] Invoking command in '/home/niweshsah/py_trees1_ws/src/build/bookstore_world': PYTHONPATH=/home/niweshsah/py_trees1_ws/src/build/bookstore_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niweshsah/py_trees1_ws/src/install/bookstore_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/niweshsah/py_trees1_ws/src/build/bookstore_world/build --no-deps symlink_data
+[6.016s] running develop
+[6.700s] running egg_info
+[6.700s] creating bookstore_world.egg-info
+[6.700s] writing bookstore_world.egg-info/PKG-INFO
+[6.701s] writing dependency_links to bookstore_world.egg-info/dependency_links.txt
+[6.701s] writing entry points to bookstore_world.egg-info/entry_points.txt
+[6.701s] writing requirements to bookstore_world.egg-info/requires.txt
+[6.701s] writing top-level names to bookstore_world.egg-info/top_level.txt
+[6.702s] writing manifest file 'bookstore_world.egg-info/SOURCES.txt'
+[6.709s] reading manifest file 'bookstore_world.egg-info/SOURCES.txt'
+[6.712s] writing manifest file 'bookstore_world.egg-info/SOURCES.txt'
+[6.721s] running build_ext
+[6.724s] Creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/lib/python3.10/site-packages/bookstore-world.egg-link (link to .)
+[6.726s] 
+[6.727s] Installed /home/niweshsah/py_trees1_ws/src/build/bookstore_world
+[6.728s] running symlink_data
+[6.728s] creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index
+[6.728s] creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index
+[6.729s] creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index/packages
+[6.729s] symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/resource/bookstore_world -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index/packages
+[6.729s] symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/package.xml -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world
+[6.729s] creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+[6.729s] symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/book_store_launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+[6.730s] symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/bookstore_turtlebot.launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+[6.730s] symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/bookstore_classic_turtlebot3.launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+[6.730s] creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/worlds
+[6.730s] symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/worlds/bookstore.world -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/worlds
+[6.803s] Invoked command in '/home/niweshsah/py_trees1_ws/src/build/bookstore_world' returned '0': PYTHONPATH=/home/niweshsah/py_trees1_ws/src/build/bookstore_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niweshsah/py_trees1_ws/src/install/bookstore_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/niweshsah/py_trees1_ws/src/build/bookstore_world/build --no-deps symlink_data

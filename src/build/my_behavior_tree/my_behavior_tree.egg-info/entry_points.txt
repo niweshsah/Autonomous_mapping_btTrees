@@ -1,0 +1,4 @@
+[console_scripts]
+simple_tree = my_behavior_tree.simple_tree:main
+turtlebot_btree = my_behavior_tree.turtlebot_btree:main
+

@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating bookstore_world.egg-info
+writing bookstore_world.egg-info/PKG-INFO
+writing dependency_links to bookstore_world.egg-info/dependency_links.txt
+writing entry points to bookstore_world.egg-info/entry_points.txt
+writing requirements to bookstore_world.egg-info/requires.txt
+writing top-level names to bookstore_world.egg-info/top_level.txt
+writing manifest file 'bookstore_world.egg-info/SOURCES.txt'
+reading manifest file 'bookstore_world.egg-info/SOURCES.txt'
+writing manifest file 'bookstore_world.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/lib/python3.10/site-packages/bookstore-world.egg-link (link to .)
+
+Installed /home/niweshsah/py_trees1_ws/src/build/bookstore_world
+running symlink_data
+creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index
+creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index
+creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index/packages
+symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/resource/bookstore_world -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/ament_index/resource_index/packages
+symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/package.xml -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world
+creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/book_store_launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/bookstore_turtlebot.launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/launch/bookstore_classic_turtlebot3.launch.py -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/launch
+creating /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/worlds
+symbolically linking /home/niweshsah/py_trees1_ws/src/build/bookstore_world/worlds/bookstore.world -> /home/niweshsah/py_trees1_ws/src/install/bookstore_world/share/bookstore_world/worlds
